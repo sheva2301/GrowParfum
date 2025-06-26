@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grow Parfum</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <div class="header-text">
+        <h1>GROW PARFUM</h1>
+        <p>Wewangian Elegan dan Mewah</p>
+      </div>
+    </div>
+    <div class="navbar-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="media.htmls" class="active">Media</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="kontak" class="contact-section">
+  <h2>Hubungi Kami</h2>
+  <div class="contact-box">
+    <p>Jika Anda memiliki pertanyaan atau ingin memberikan saran, hubungi kami melalui media berikut:</p>
+    <ul class="contact-list">
+      <li>
+        <a href="https://wa.me/62895412976088" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp: 0895-4129-76088
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/shevhermansyah_" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram: @shevhermansyah_
+        </a>
+      </li>
+      <li>
+        <a href="mailto:growparfum@gmail.com">
+          <i class="fas fa-envelope"></i> Email: growparfum@gmail.com
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+  <footer>
+    &copy; 2025 Grow Parfum. Since 2006
+  </footer>
+  <script src="script.js"></script>
+  <script>
+  function toggleMenu() {
+    const menu = document.querySelector('.navbar-menu');
+    menu.classList.toggle('show');
+  }
+</script>
+</body>
+</html>

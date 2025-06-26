@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grow Parfum</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <div class="header-text">
+        <h1>GROW PARFUM</h1>
+        <p>Wewangian Elegan dan Mewah</p>
+      </div>
+    </div>
+    <div class="navbar-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="index.html" class="active">Beranda</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="beranda" class="home-section">
+  <h2>Temukan Parfum Pilihan Anda</h2>
+  <div class="product-box-container">
+    <div class="product-box">
+      <img src="sauvage.jpeg" alt="Sauvage">
+      <h3>Sauvage</h3>
+      <p>Dior Sauvage Eau de Parfum menyebarkan kualitas eksotis dengan dasar amber dan kayu yang sensual.</p>
+    </div>
+    <div class="product-box">
+      <img src="sharaf.jpeg" alt="Sharaf">
+      <h3>Sharaf Blend</h3>
+      <p>Sharaf Blend menawarkan aroma vanilla amber hangat dan mewah, cocok untuk pria dan wanita.</p>
+    </div>
+    <div class="product-box">
+      <img src="9pm.jpeg" alt="9PM">
+      <h3>AFNAN 9PM</h3>
+      <p>Parfum dengan perpaduan apple, lavender, dan amber. Cocok untuk malam hari yang elegan.</p>
+    </div>
+    <div class="product-box">
+      <img src="blue.jpeg" alt="Bleu">
+      <h3>Bleu De Chanel</h3>
+      <p>Aroma woody aromatik intens yang menawan. Wewangian pria dengan kesan mewah dan kuat.</p>
+    </div>
+    <div class="product-box">
+      <img src="JPG.jpeg" alt="JPG">
+      <h3>Jean Paul Gaultier</h3>
+      <p>Aroma khas lavender, vanila, dan kapulaga. Jejak maskulin dengan karisma tak tergoyahkan.</p>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    &copy; 2025 Grow Parfum. Since 2006
+  </footer>
+  <script src="script.js"></script>
+  <script>
+  function toggleMenu() {
+    const menu = document.querySelector('.navbar-menu');
+    menu.classList.toggle('show');
+  }
+</script>
+</body>
+</html>
