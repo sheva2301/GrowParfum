@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grow Parfum</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="asset/logo.png" alt="Logo" class="logo" />
+      <div class="header-text">
+        <h1>GROW PARFUM</h1>
+        <p>Wewangian Elegan dan Mewah</p>
+      </div>
+    </div>
+    <div class="navbar-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="tentang.html"  class="active">Tentang</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="tentang" class="about-section">
+  <h2>Tentang Saya</h2>
+  <div class="about-box-single">
+    <img src="asset/sheva.png" alt="Foto Pembuat" />
+    <div class="about-content">
+      <h3>Sheva Hermansyah</h3>
+      <p>
+        Pendiri <strong>Grow Parfum</strong>, Seorang Mahasiswa Universitas Widyatama jurusan Informatika, berdedikasi menciptakan parfum 
+        dengan aroma alami dan elegan untuk semua kalangan. Saya menghadirkan perpaduan kualitas, gaya, dan pelayanan ramah pelanggan.
+      </p>
+      <p><strong>Misi:</strong> Memberikan pengalaman aroma terbaik dari bahan berkualitas tinggi dan tampilan modern yang memikat.</p>
+      <p><strong>Kontak:</strong><br>
+        📧 growparfum@gmail.com<br>
+        📞 0895-4129-76088<br>
+        📍 Lembang, Bandung
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+  <footer>
+    &copy; 2025 Grow Parfum. Since 2006
+  </footer>
+  <script src="script.js"></script>
+  <script>
+  function toggleMenu() {
+    const menu = document.querySelector('.navbar-menu');
+    menu.classList.toggle('show');
+  }
+</script>
+</body>
+</html>
